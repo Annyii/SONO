@@ -1,0 +1,517 @@
+body {
+    margin: 0;
+    font-family: Cambria,Georgia,serif;
+}
+
+h1 {
+    font-size: 2.4em;
+}
+h2 {
+    font-size: 2em;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+    font-size: 1.4em;
+}
+
+button {
+    background-color:rgb(26, 26, 26);
+}
+button a{
+    color: white;
+    text-decoration: none;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+  
+nav li {
+    text-align: right;
+    padding: 2.4em;
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.4em;
+    color: white;
+} 
+
+nav ul li a:hover {
+    color:rgb(177, 177, 177);
+    transition: .3s all ease;
+}
+
+.menu-icon {
+    display: none;
+}
+
+
+.hero {
+    background-image: url(../images/ed-rojas-unsplash.jpg);
+    min-height: 700px;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    max-width: 900px;
+    margin-top:10%;
+    font-size: 2.6em;
+    padding-left: 20px;
+}
+
+
+.intro {
+    min-height: 200px;
+    text-align:center;
+    color: rgb(26, 26, 26);
+    background-color:rgb(230, 230, 230);
+}
+
+.intro-visuals{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: row;
+    transform: rotate(180deg);
+}
+
+.intro h2{
+    display: flex;
+    font-size: 3em;
+    padding-left: 30px;
+}
+
+.intro-pic {
+    max-width: 35%;
+    object-fit: cover;
+    margin: auto;
+}
+
+.intro-pic2 {
+    max-width: 50%;
+    object-fit: cover;
+    margin: auto;
+}
+
+.product { 
+    min-height: 500px;
+    background-color: rgb(226, 226, 226);
+    display: flex;
+    flex-direction: row;
+}
+
+.product button {
+    max-width: 200px;
+    min-height: 40px;
+    margin-top: 40px;
+}
+
+.product-text {
+    max-width: 50%;
+    align-self: center;
+    padding-right: 20px;
+}
+
+.other-microphones h3 {
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 80px;
+}
+
+.mic-img {
+    height: 500px;
+    object-fit: cover;
+    margin: auto;
+}
+
+.gallery {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    padding-bottom: 200px;
+}
+  
+.gallery img {
+    max-width: 70%;
+    height: 100%;
+    object-fit: cover;
+    margin: auto;
+}
+
+.about-hero {
+    background-image: url(../images/david-von-diemar-2-unsplash.jpg);
+    min-height: 700px;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.about-hero-content {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 2.6em;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    text-shadow: 0 2px 4px #000;
+}
+
+.story h1 {
+    font-size: 2.8em;
+    text-align: center;
+    padding: 20px;
+}
+.about-img1 {
+    max-width: 50%;
+}
+
+
+.description {
+   display: flex;
+   max-width: 80%;
+   align-items: center;
+   object-fit: cover;
+   margin: auto;
+   gap: 80px;
+   padding-bottom: 30px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../images/milad-fakurian-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 600px;
+    align-items: center;
+}
+
+.description-2 {
+    font-size: 1.8em;
+    color:white;
+    text-align: center;
+    max-width: 675px;
+}
+
+.quality h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+.about-img2 {
+    max-width: 45%;
+}
+
+.description-3 {
+   display: flex;
+   flex-direction: row-reverse;
+   max-width: 80%;
+   align-items: center;
+   object-fit: cover;
+   margin: auto;
+   gap: 80px;
+   text-align: right;
+   padding-bottom: 20px;
+}
+
+
+.m72fr-hero{
+    background-image: url(../images/john-matychuk-unsplash.jpg);
+    min-height: 700px;
+    background-size: cover;
+    background-position-y: 20%;
+    text-shadow: 0 2px 4px #000;
+}
+
+.features {
+    padding-top: 80px;
+    background-color: rgb(158, 158, 158);
+}
+
+.features-right {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 400px;
+    background-color: rgb(190, 190, 190);
+}
+.features-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    object-fit: center;
+    gap: 200px;
+    background-color: rgb(158, 158, 158);
+}
+
+.features-text {
+    max-width: 20%;
+}
+
+.feature-pic {
+    max-width: 35%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.sound-directions {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.information {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+.illustration img{
+    max-width: 40%;
+}
+
+.mini-version {
+    display: flex;
+    gap: 10%;
+    justify-content: center;
+    background-color:rgb(27, 27, 27);
+}
+
+.mini-version button {
+    max-width: 200px;
+    min-height: 40px;
+    margin-top: 40px;
+    background-color:white;
+}
+
+.mini-mic-pic {
+    max-width: 50%;
+    height: 400px;
+    object-fit: cover;
+    margin: auto;
+}
+
+.mini-product-text {
+    color:rgb(226, 226, 226);
+    line-height: 70px;
+}
+
+.m-series {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.m-series-grid {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-top: 40px;
+}
+
+.m-series img{
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin: auto;
+}
+
+footer {
+    background-color: black;
+    min-height: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+footer h6 {
+    color: white;
+    font-size: 1em;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 64em){
+    .description {
+        flex-direction: column;
+    }
+    .features-right {
+        gap: 80px;
+    }
+    .mini-version {
+        flex-direction: column;
+    }
+    .mini-mic-pic {
+        justify-content: center;
+        align-items: center;             
+        max-width: 80%;
+        min-height: 100%;
+    }
+    .mini-product-text {
+        text-align: center;
+    }
+    .gallery{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media screen and (max-width: 48em){
+    .menu-icon {
+        display: block;
+    }
+    nav {
+        height: 50px;
+        overflow: hidden;
+    }
+    .nav-expanded {
+        height: auto;
+        background-color: rgb(65, 65, 65);
+    }
+    nav li {
+        flex-basis:100%;
+        padding: 1em;
+    }
+    .intro-visuals {
+        margin: auto;
+    }
+    .intro-pic {
+        max-width: 60%;
+    }
+    .product {
+        display: flex;
+        flex-direction:column;
+    }
+    .product-text {
+        max-width: 100%;
+        text-align: center;
+    }
+    .mic-img {
+        max-width: 100%;
+        height: 500px;
+        object-fit: cover;
+        margin: auto;
+    }
+    .description {
+        flex-direction: column;
+        text-align: center;
+    }
+    .description-3 {
+        flex-direction: column;
+        text-align: center;
+    }
+    .about-img1 {
+        max-width: 100%;
+    }
+    .about-img2{
+        max-width: 100%;
+    }
+    .m72fr-hero {
+        background-size: cover;
+        background-position: center;
+    }
+    .hero-content {
+        padding-top: 280px;
+        font-size: 1.8em;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+    }
+    .features-left {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .features-right {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .feature-pic {
+        max-width: 100%;
+        min-height: 100%;
+        object-fit: cover;
+        margin: auto;
+    }
+    .features-text {
+        max-width: 100%;
+        text-align: center;
+    }
+    .information {
+        flex-direction: column;
+    }
+    .information img {
+        max-width: 80%;
+    }
+    .mini-version {
+        flex-direction: column;
+    }
+    .mini-mic-pic {
+        max-width: 100%;
+        min-height: 100%;
+        object-fit: cover;
+        margin: auto;
+    }
+    .mini-product-text {
+        text-align: center;
+    }
+    .m-series-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+    .gallery {
+        grid-template-columns: 1fr 1fr;
+    }
+    .footer {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (max-width: 30em){ 
+    .menu-icon {
+        display: block;
+    }
+    nav {
+        height: 50px;
+        overflow: hidden;
+    }
+    .nav-expanded {
+        height: auto;
+        background-color: rgb(65, 65, 65);
+    }
+    nav li {
+        flex-basis:100%;
+        padding: 1em;
+    }
+    .intro-pic2 {
+        max-width: 90%;
+        height: 90%;
+        object-fit: cover;
+        margin: auto;
+    }
+    .description {
+        flex-direction: column;
+        width: 80%;
+    }
+  
+    .m-series img {
+        height: 100%;
+        object-fit: cover;
+        margin: auto;
+    }
+    .m-series-grid {
+        grid-template-columns: 1fr;
+    }
+    .gallery {
+        grid-template-columns: 1fr;
+    }
+    .footer {
+        grid-template-columns: 1fr;
+    }
+} 
